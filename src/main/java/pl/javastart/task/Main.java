@@ -3,7 +3,7 @@ package pl.javastart.task;
 public class Main {
 
     public static void main(String[] args) {
-        Firma firma = new Firma("JanuszPOL", new NaCzarno());
+        Firma firma = new Firma("JanuszPOL", new NaCzarno("asd",));
 
         firma.dodajPrzychod("Remont Mieszkania", 20_000);
         firma.dodajWydatek("Gładzie i farby", 1_000);

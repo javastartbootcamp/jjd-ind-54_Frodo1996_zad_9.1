@@ -30,10 +30,26 @@ public class Firma {
     }
 
     public void dodajPrzychod(String nazwa, double wartosc) {
-        // TODO
+        System.out.println("Firma " + nazwa + ", ma przychód w wysokości: " + wartosc);
     }
 
     public void dodajWydatek(String nazwa, double wartosc) {
-        // TODO
+        System.out.println("Firma " + nazwa + ", ma wydatek w wysokości: " + wartosc);
+    }
+
+    public String getNazwa() {
+        return nazwa;
+    }
+
+    public void setNazwa(String nazwa) {
+        this.nazwa = nazwa;
+    }
+
+    public FormaOpodatkowania getFormaOpodatkowania() {
+        return formaOpodatkowania;
+    }
+
+    public void setFormaOpodatkowania(FormaOpodatkowania formaOpodatkowania) {
+        this.formaOpodatkowania = formaOpodatkowania;
     }
 }
